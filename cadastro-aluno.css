@@ -73,7 +73,6 @@ input{
     border-radius: 4px;
     border: 0.5px solid gray;
     margin: 8px auto;
-    
 }
 
 input::placeholder{
