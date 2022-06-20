@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(170deg, rgb(126, 170, 180),rgb(2, 36, 44));
+}
+
+#cadastroDeAluno{
+    margin: 50px;
+    width: 45%;
+    height: 80%;
+    float: left;
+    background-color: #fffdd0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#cadastrosAlunos{
+    cursor: pointer;
+    height: 45%;
+    overflow-y: scroll;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#detalhesDosAlunos{
+    margin-top: 50px;
+    margin-right: 50px; 
+    height: 80%;
+    width: 45%;
+    float: right;
+    background-color: #fffdd0;
+    border-radius: 4px;
+    color: rgb(5, 73, 83);
+    font-weight: bold; 
+}
+
+#btnCadastroDeAluno{
+    background-color: #ff8c70;
+    width: auto;
+    margin-top: 8px;
+    color: rgb(5, 73, 83);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    color: #fffdd0; 
+}
+
+h2{
+    text-align: center;
+    color: rgb(32, 110, 122);
+}
+
+p{
+    margin: 8px;
+    color: rgb(32, 110, 122);
+    font-size: 20px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+input{
+    display: block;
+    width: 50%;
+    height: 20px;
+    padding: 8px 0px 8px 4px;
+    font-size: 18px;
+    color: rgb(5, 73, 83);
+    border-radius: 4px;
+    border: 0.5px solid gray;
+    margin: 8px auto;
+    
+}
+
+input::placeholder{
+    font-size: 18px;
+    color: rgb(5, 73, 83);  
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Aluno</title>
+    <link rel="stylesheet" href="cadastro-aluno.css">
+    <script type="text/javascript" src="cadastro-aluno.js"></script>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <div id="cadastroDeAluno">
+        <input type="text" placeholder="Nome do aluno" id="nomeDoAluno">
+        <input type="tel" placeholder="Telefone" id="telefoneDoAluno">
+        <input type="date" id="dataDeNascimentoDoAluno">
+        <input type="text" placeholder="Nota final" id="notaFinalDoCurso">
+        <button id="btnCadastroDeAluno" onclick="cadastrarAluno()">Cadastrar Aluno</button>
+        
+        <h2>Alunos Cadastrados</h2>
+        <p id="cadastrosAlunos"></p>
+        
+    </div>
+
+    <div id="detalhesDosAlunos">
+        <h2>Detalhes do Aluno</h2>
+        <p id="detalhesDoAlunoNome"></p>
+        <p id="detalhesDoAlunoTelefone"></p>
+        <p id="detalhesDoAlunoDataDeNascimento"></p>
+        <p id="detalhesDoAlunoNotaFinalDoCurso"></p>
+    </div>
+</body>
+</html>
